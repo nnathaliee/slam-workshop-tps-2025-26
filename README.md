@@ -55,7 +55,7 @@ Une approche simplifiée a donc été mise en œuvre.
 
 La visualisation 2D reste toutefois peu lisible.
 
-![cloud points](images/image4.png) 
+![cloud points](images/image7.png) 
 
 Une **visualisation 3D interactive** est disponible dans le *notebook*, ce qui permet une analyse plus pertinente de la scène reconstruite.
 
@@ -85,7 +85,7 @@ Contrairement à une vidéo, les images extraites individuellement présentent u
 
 ***Reconstruction de la trajectoire***
 
-![trajectoire 2](images/image7.png) 
+![trajectoire 2](images/image4.png) 
 
 Cette trajectoire représente le mouvement complet d’un drone reconstruit à partir d’une séquence de frames : le drone commence par avancer de façon relativement rectiligne, ce qui se traduit par des points presque alignés et une direction stable, puis il entre dans une phase où le déplacement spatial devient faible mais la direction change brusquement, indiquant une rotation sur lui-même (principalement autour de l’axe vertical, en lacet), avant de reprendre une progression vers l’avant dans une nouvelle direction après la rotation ; les petites irrégularités et zigzags observés entre certains points peuvent s’expliquer par le bruit des mesures ou la discrétisation frame par frame.  
 
